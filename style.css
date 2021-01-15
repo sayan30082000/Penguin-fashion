@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+img{width: 100%;}
+.selection img{
+     width: 400px;
+     height: 500px;
+}
+.last-item img{width:80px;}
+.last-item h4{display: inline-block;}
+.penguin{margin-top: 155px;}
+.penguin-color{color: #FABE4C;font-size: 50px; font-weight: 900;}
+.women-jacket {
+    background-color: #8169690f;
+    display: block;
+    /* height: 300px!important;
+    width:250px!important; */
+    border-radius: 20%;
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    -ms-border-radius: 20%;
+    -o-border-radius: 20%;
+    padding-top: 50px;
+    /* margin-left: 50px; */
+    
+}
+.men-jacket {
+    background-color: #8169690f;
+    display: inline-block;
+    /* width:250px!important; */
+    
+    /* height: 300px; */
+}
+.navbar-logo {
+    width: 380px;
+    height: 50px;
+}
+
+
+.navbar-img {
+    background-color: #FFFBF0;
+}
+.select{
+  width: 100px;
+}
+
+@media only screen and (max-width: 1600px) {
+    .navbar-right {
+         margin-left: 400px;
+    }
+    .navbar-right li{
+      margin-left: 40px;
+    }
+  }
+@media only screen and (max-width: 1500px) {
+    .navbar-right {
+         margin-left: 450px;
+         
+    }
+  }
+@media only screen and (max-width: 1400px) {
+    .navbar-right {
+         margin-left: 300px;
+         
+    }
+  }
+
+@media only screen and (max-width: 1200px) {
+    .navbar-right {
+         margin-left: 120px;
+         
+    }
+  }
+@media only screen and (max-width: 1100px) {
+    .navbar-right {
+         margin-right: 10px;
+         
+    }
+  }
+@media only screen and (max-width: 1000px) {
+    .navbar-right {
+         margin-left: 50px;
+         
+    }
+  }
+  
+  footer{
+    background-color: #FABE4C;
+    position: relative;
+    
+  }
